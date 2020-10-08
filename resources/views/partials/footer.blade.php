@@ -1,4 +1,5 @@
 <footer class="footer">
+    <img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sito-test.png" alt="">
     <div class="footer-top">
         <ul>
             <li>Pastificio</li>
@@ -15,6 +16,7 @@
         </ul>
     </div>
     <div class="footer-bottom">
+     
         <ul>
             <li>Prodotti</li>
             <li>Le Classiche</li>

@@ -6,11 +6,21 @@
     justify-content: center;
     font-size: 1.8rem;
     &-top, &-bottom {
-        width: 50%;
-        @include flex(row,space-between, null);
-        
+        width: 30%;
+        @include flex(row,center, center);
+        color: var(--color-font);
         ul{
             list-style: none;
+            margin-bottom:2rem;
+            flex: 1;
+            @include flex(column,center, center);
+            & li{
+                cursor: pointer;
+
+                &:first-child{
+                    font-size: 2.6rem;
+                }
+            }
         }
         
     }
