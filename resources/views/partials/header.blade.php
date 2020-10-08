@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <title>La molisana</title>
 </head>
-<div class="container-flex">
 
-    <body>
 
+<body>
+    <div class="container-flex">
         <header class="header">
             <img src="" alt="">
             <nav class="navbar">
