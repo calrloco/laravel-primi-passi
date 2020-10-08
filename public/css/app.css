@@ -30,6 +30,7 @@ html {
   background-attachment: scroll;
   width: 100%;
   flex: 1;
+  padding-bottom: 15rem;
 }
 
 .footer-top,
@@ -67,6 +68,16 @@ html {
   height: 20rem;
   background-color: #fff;
   width: 100%;
+}
+
+.home__video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 5rem 0;
+  flex: 1 1;
 }
 
 .container-flex {
