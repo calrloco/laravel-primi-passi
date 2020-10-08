@@ -1,0 +1,18 @@
+.navbar{
+  @include flex(row,center,center);
+  width: 100%;
+
+  & ul{
+      @include flex(row,center,center);
+      list-style: none;
+      & li{
+        margin:2rem;
+        font-size: 2.4rem;
+
+        & a{
+            text-decoration: none;
+            color:var(--color-font);
+        }
+      }
+  }
+}

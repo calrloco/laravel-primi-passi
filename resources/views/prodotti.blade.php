@@ -140,24 +140,28 @@ $corte[] = $card;
 @include('partials.header');
 <main>
         <div class="cards__container">
+            <h3 class="card__title">Le Lunghe</h3>
                      <div class="cards__container-tipi">
-                         <h3>Le Lunghe</h3>
+                        
                      @foreach ($lunghe as $lunghe)
                          <div class="card">
                             <img src="{{ $lunghe['src'] }}" alt="{{ $lunghe['titolo'] }}">
                         </div>
                      @endforeach
                     </div>
+                    <h3 class="card__title">Le Corte</h3>
                 <div class="cards__container-tipi">
-                    <h3>Le Corte</h3>
+               
                  @foreach ($corte as $corta)
                  <div class="card">
                      
                      <img src="{{ $corta['src'] }}" alt="{{ $corta['titolo'] }}">
                 </div>
                    @endforeach
+                
+                   <h3 class="card__title">Le Cortissime</h3>
                 <div class="cards__container-tipi">
-                    <h3>Le Cortissime</h3>
+                  
                    @foreach ($cortissime as $cortissima)
                    <div class="card">
                     
