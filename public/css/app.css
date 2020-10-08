@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.footer {
+  height: 70rem;
+}
+
+.header {
+  height: 20rem;
+  background-color: #fff;
+}
+
+.container-flex {
+  min-height: 100vh;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.cards__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards__container-tipi {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.card {
+  flex: 0 0 calc(100% / 3);
+}
+

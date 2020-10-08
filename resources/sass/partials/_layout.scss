@@ -1,0 +1,5 @@
+.container-flex{
+    min-height:100vh;
+    background-color: red;
+    @include flex(column,flex-start,flex-start);
+}

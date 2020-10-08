@@ -1,0 +1,14 @@
+.cards__container{
+    @include flex(column,center,center);
+    flex-wrap: wrap;
+
+    &-tipi{
+        @include flex(row,flex-start,center);
+        flex-wrap: wrap;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+.card{
+    flex:0 0 calc(100% / 3);
+}
