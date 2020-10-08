@@ -18,7 +18,7 @@
         <header class="header">
             <img src="" alt="">
             <nav class="navbar">
-                <img src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sito-test.png"
+                <img class="logo-nav" src="https://cdn.shortpixel.ai/client/q_lossy,ret_img/https://www.lamolisana.it/wp-content/uploads/2020/04/marchio-sito-test.png"
                     alt="">
                 <ul>
                     <li><a href="{{ route('home') }}">home</a></li>
