@@ -28,6 +28,8 @@ html {
   background-repeat: repeat-x;
   background-position: center bottom;
   background-attachment: scroll;
+  width: 100%;
+  flex: 1;
 }
 
 .footer-top,

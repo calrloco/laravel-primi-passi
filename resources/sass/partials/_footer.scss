@@ -10,7 +10,8 @@
     background-repeat: repeat-x;
     background-position: center bottom;
     background-attachment: scroll;
-
+    width: 100%;
+    flex: 1;
     &-top, &-bottom {
         width: 30%;
         @include flex(row,center, center);
