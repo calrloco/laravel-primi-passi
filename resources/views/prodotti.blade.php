@@ -137,7 +137,7 @@ $corte[] = $card;
 }
 
 @endphp
-@include('partials.header');
+@include('partials.header')
 <main>
         <div class="cards__container">
             <h3 class="card__title">Le Lunghe</h3>
@@ -185,4 +185,4 @@ $corte[] = $card;
 </main>
         </div>
     </div>
-@include('partials.footer');
+@include('partials.footer')
