@@ -11,12 +11,14 @@
     background-position: center bottom;
     background-attachment: scroll;
     width: 100%;
-    flex: 1;
+    flex: 0 0 61.2rem;
     padding-bottom:15rem;
+    border-top: 2px solid var(--color-font);
     &-top, &-bottom {
         width: 30%;
         @include flex(row,center, center);
         color: var(--color-font);
+        background-color:inherit;
         ul{
             list-style: none;
             margin-bottom:2rem;

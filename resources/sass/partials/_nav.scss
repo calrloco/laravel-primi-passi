@@ -1,7 +1,8 @@
 .navbar{
   @include flex(row,center,center);
   width: 100%;
-
+  text-transform:capitalize;
+  height: 100%;
   & ul{
       @include flex(row,center,center);
       list-style: none;
