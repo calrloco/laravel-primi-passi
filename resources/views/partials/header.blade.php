@@ -7,11 +7,11 @@
         </div>
         <ul>
             <li><a href="{{ route('home') }}"
-                    class="link {{ url()->current() == route('home') ? 'rosso' : 'noactive' }}">home</a></li>
+                    class="link {{ url()->current() == route('home') ? 'visited' : 'noactive' }}">home</a></li>
             <li><a href="{{ route('prodotti') }}"
-                    class="link  {{ url()->current() == route('prodotti') ? 'rosso' : 'noactive' }}">prodotti</a></li>
+                    class="link  {{ url()->current() == route('prodotti') ? 'visited' : 'noactive' }}">prodotti</a></li>
             <li><a href="{{ route('contatti') }}"
-                    class="link {{ url()->current() == route('contatti') ? 'rosso' : 'noactive' }}">contatti</a></li>
+                    class="link {{ url()->current() == route('contatti') ? 'visited' : 'noactive' }}">contatti</a></li>
         </ul>
     </nav>
 </header>

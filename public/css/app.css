@@ -83,7 +83,6 @@ main {
   height: 20rem;
   background-color: var(--color-nav);
   width: 100%;
-  border-bottom: 2px solid var(--color-font);
 }
 
 .home__video {
@@ -213,6 +212,14 @@ main {
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
+}
+
+.visited {
+  color: #fff;
+}
+
+.noactive {
+  color: var(--color-font);
 }
 
 .contatti {
