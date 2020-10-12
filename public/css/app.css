@@ -214,8 +214,8 @@ main {
   -o-transform: scale(1);
 }
 
-.visited {
-  color: #fff;
+.navbar ul li a.visited {
+  color: #090088;
 }
 
 .noactive {
