@@ -1,19 +1,3 @@
-@php
-$cards = config('prodotti');
-$lunghe = [];
-$corte = [];
-$cortissime = [];
-
-foreach($cards as $card) {
-if ($card['tipo'] == 'lunga') {
-$lunghe[] = $card;
-}else if ($card['tipo'] == 'cortissima'){
-$cortissime[] = $card;
-}else if ($card['tipo'] == 'corta'){
-$corte[] = $card;
-}
-}
-@endphp
 @extends('template.app')
 @section('titolo','prodotti')
 @section('main')

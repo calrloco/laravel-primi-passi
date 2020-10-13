@@ -17,13 +17,13 @@ class StaticPageController extends Controller
         $corte = [];
         $cortissime = [];
 
-        foreach ($cards as $card) {
+        foreach ($cards as $key => $card) {
             if ($card['tipo'] == 'lunga') {
-                $lunghe[] = $card;
+                $lunghe[$key] = $card;
             } else if ($card['tipo'] == 'cortissima') {
-                $cortissime[] = $card;
+                $cortissime[$key] = $card;
             } else if ($card['tipo'] == 'corta') {
-                $corte[] = $card;
+                $corte[$key] = $card;
             }
         }
         return view('prodotti', compact('lunghe','corte','cortissime'));
